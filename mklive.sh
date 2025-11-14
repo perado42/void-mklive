@@ -521,7 +521,6 @@ while getopts "a:b:r:c:C:T:Kk:l:i:I:S:e:s:o:p:g:v:P:Vh" opt; do
 		T) BOOT_TITLE="$OPTARG";;
 		v) LINUX_VERSION="$OPTARG";;
 		x) POSTSETUP_SCRIPT="$OPTARG";;
-
 		V) version; exit 0;;
 		h) usage; exit 0;;
 		*) usage >&2; exit 1;;
